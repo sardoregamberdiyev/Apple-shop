@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 860" fill="none">
+<defs>
+<linearGradient id="titanium" x1="415" y1="150" x2="700" y2="680" gradientUnits="userSpaceOnUse"><stop stop-color="#d6d3cc"/><stop offset=".22" stop-color="#c9c5bd"/><stop offset=".6" stop-color="#b5b1a8"/><stop offset="1" stop-color="#8f8b83"/></linearGradient>
+<linearGradient id="rim" x1="400" y1="390" x2="710" y2="390" gradientUnits="userSpaceOnUse"><stop stop-color="#77766f"/><stop offset=".02" stop-color="#f3f0e9"/><stop offset=".06" stop-color="#8f8c84"/><stop offset=".1" stop-color="#d1cdc4"/><stop offset=".9" stop-color="#dfdcd4"/><stop offset=".94" stop-color="#88867d"/><stop offset=".975" stop-color="#d5d2ca"/><stop offset="1" stop-color="#6d6a64"/></linearGradient>
+<linearGradient id="side" x1="682" y1="100" x2="710" y2="100" gradientUnits="userSpaceOnUse"><stop stop-color="#4d4c47"/><stop offset=".18" stop-color="#c6c3bb"/><stop offset=".45" stop-color="#eae7e0"/><stop offset=".7" stop-color="#b0ada6"/><stop offset="1" stop-color="#706e68"/></linearGradient>
+<linearGradient id="camera" x1="442" y1="120" x2="590" y2="280" gradientUnits="userSpaceOnUse"><stop stop-color="#e3e0d9"/><stop offset=".5" stop-color="#aaa69d"/><stop offset="1" stop-color="#cfcbc1"/></linearGradient>
+<radialGradient id="lens"><stop stop-color="#06101b"/><stop offset=".25" stop-color="#152337"/><stop offset=".38" stop-color="#080b11"/><stop offset=".65" stop-color="#171e29"/><stop offset=".8" stop-color="#050608"/><stop offset=".87" stop-color="#535351"/><stop offset=".94" stop-color="#b4b1a9"/><stop offset="1" stop-color="#494944"/></radialGradient>
+<linearGradient id="pod" x1="0" y1="0" x2="80" y2="100" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset=".4" stop-color="#f9f9f8"/><stop offset=".7" stop-color="#e0e1e1"/><stop offset="1" stop-color="#b7b9bb"/></linearGradient>
+<linearGradient id="stem" x1="43" y1="50" x2="79" y2="100" gradientUnits="userSpaceOnUse"><stop stop-color="#fdfdfd"/><stop offset=".28" stop-color="#fff"/><stop offset=".6" stop-color="#d9dbdc"/><stop offset=".85" stop-color="#f7f7f6"/><stop offset="1" stop-color="#b9babc"/></linearGradient>
+<radialGradient id="blue" cx=".31" cy=".23" r=".75"><stop stop-color="#97b2ff"/><stop offset=".2" stop-color="#5f88ee"/><stop offset=".62" stop-color="#284dc5"/><stop offset="1" stop-color="#183a95"/></radialGradient>
+<linearGradient id="ring" x1="658" y1="656" x2="755" y2="778" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset=".47" stop-color="#e7e8e7"/><stop offset=".7" stop-color="#b1b2b1"/><stop offset=".85" stop-color="#f7f7f7"/><stop offset="1" stop-color="#c5c6c5"/></linearGradient>
+<filter id="deviceShadow" x="-40%" y="-20%" width="180%" height="155%"><feDropShadow dx="12" dy="20" stdDeviation="10" flood-color="#514d45" flood-opacity=".2"/></filter>
+<filter id="soft" x="-60%" y="-40%" width="220%" height="200%"><feDropShadow dx="1" dy="10" stdDeviation="8" flood-color="#767b82" flood-opacity=".16"/></filter>
+<g id="earbud">
+<rect x="43" y="39" width="32" height="117" rx="15" fill="url(#stem)" stroke="#d8dadc" stroke-width=".8"/>
+<path d="M49 149h20" stroke="#7f8589" stroke-width="3" stroke-linecap="round"/><path d="M49 81v53" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+<ellipse cx="45" cy="41" rx="43" ry="36" fill="url(#pod)" stroke="#f7f7f7" stroke-width=".9"/>
+<ellipse cx="79" cy="43" rx="23" ry="29" fill="#edeff0" stroke="#d5d8da"/>
+<ellipse cx="83" cy="42" rx="13" ry="19" fill="url(#pod)"/><ellipse cx="86" cy="42" rx="9" ry="14" fill="#34383a"/><ellipse cx="85" cy="40" rx="5" ry="10" fill="#26292b"/>
+<ellipse cx="33" cy="22" rx="14" ry="6" transform="rotate(20 33 22)" fill="#17191c"/><ellipse cx="15" cy="49" rx="4" ry="9" fill="#7b8084"/><path d="M18 17c9-8 24-9 35-3" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+</g>
+</defs>
+<!-- The MagSafe charger sits behind the phone. -->
+<g filter="url(#soft)">
+<path d="M711 739c-10 35-42 74-65 119" stroke="#bfc0bf" stroke-width="17"/><path d="M709 739c-11 35-42 74-65 119" stroke="#f2f3f2" stroke-width="11"/>
+<ellipse cx="735" cy="702" rx="108" ry="67" transform="rotate(-25 735 702)" fill="#b9bab8"/>
+<ellipse cx="733" cy="696" rx="108" ry="67" transform="rotate(-25 733 696)" fill="url(#ring)" stroke="#fff" stroke-width="2"/>
+<ellipse cx="733" cy="693" rx="92" ry="52" transform="rotate(-25 733 693)" fill="#eeeeec" stroke="#c4c5c3" stroke-width="2"/>
+<path d="M652 706c-3-35 42-72 93-78" stroke="#fff" stroke-width="3" opacity=".8"/>
+</g>
+<!-- Satin titanium body, metal edge, camera island and optical lenses. -->
+<g transform="rotate(28 550 426)" filter="url(#deviceShadow)">
+<rect x="410" y="83" width="297" height="681" rx="51" fill="url(#side)" stroke="#6c6a65" stroke-width="1.5"/>
+<rect x="399" y="76" width="294" height="681" rx="51" fill="url(#rim)" stroke="#696762" stroke-width="1.4"/>
+<rect x="406" y="82" width="280" height="668" rx="46" fill="url(#titanium)" stroke="#e5e0d7" stroke-width="1.8"/>
+<path d="M415 126c1-22 15-35 37-36h183" stroke="#f4f0e8" stroke-width="2" opacity=".8"/>
+<path d="M419 721c5 15 18 23 35 23h180" stroke="#77756e" stroke-width="1.3" opacity=".5"/>
+<path d="M697 230v74" stroke="#605f59" stroke-width="8" stroke-linecap="round"/><path d="M697 230v74" stroke="#d7d4cc" stroke-width="4.8" stroke-linecap="round"/>
+<path d="M697 338v82" stroke="#605f59" stroke-width="8" stroke-linecap="round"/><path d="M697 338v82" stroke="#d7d4cc" stroke-width="4.8" stroke-linecap="round"/>
+<path d="M698 474v44" stroke="#625f58" stroke-width="7" stroke-linecap="round"/><path d="M698 474v44" stroke="#bfbcb4" stroke-width="4.8" stroke-linecap="round"/>
+<path d="M408 154h-6M408 674h-6M689 154h15M689 674h15" stroke="#54534e" stroke-width="2.5"/>
+<rect x="423" y="104" width="167" height="182" rx="38" fill="url(#camera)" stroke="#aaa59a" stroke-width="2"/>
+<path d="M436 143c0-19 10-28 30-28h84" stroke="#eeeae1" stroke-width="2" opacity=".8"/>
+<circle cx="466" cy="151" r="37" fill="#79776f" stroke="#e4dfd4" stroke-width="3"/>
+<circle cx="466" cy="151" r="32.8" fill="url(#lens)"/><circle cx="466" cy="151" r="19" fill="#10151d"/><circle cx="466" cy="151" r="10" fill="#1c2c3f"/><ellipse cx="456" cy="141" rx="8" ry="5" transform="rotate(-23 456 141)" fill="#8897aa" opacity=".55"/><circle cx="475" cy="162" r="3" fill="#4d5873"/>
+<circle cx="466" cy="238" r="37" fill="#79776f" stroke="#e4dfd4" stroke-width="3"/>
+<circle cx="466" cy="238" r="32.8" fill="url(#lens)"/><circle cx="466" cy="238" r="19" fill="#10151d"/><circle cx="466" cy="238" r="11" fill="#152136"/><ellipse cx="456" cy="228" rx="8" ry="5" transform="rotate(-23 456 228)" fill="#8897aa" opacity=".55"/><circle cx="475" cy="248" r="3" fill="#4d5873"/>
+<circle cx="549" cy="196" r="37" fill="#79776f" stroke="#e4dfd4" stroke-width="3"/>
+<circle cx="549" cy="196" r="32.8" fill="url(#lens)"/><circle cx="549" cy="196" r="19" fill="#10151d"/><circle cx="549" cy="196" r="10" fill="#192a43"/><ellipse cx="539" cy="186" rx="8" ry="5" transform="rotate(-23 539 186)" fill="#8897aa" opacity=".55"/><circle cx="558" cy="207" r="3" fill="#4d5873"/>
+<circle cx="548" cy="130" r="12" fill="#e6e0cb" stroke="#a6a093" stroke-width="2"/><circle cx="548" cy="130" r="8" fill="#f3edd8"/><path d="M542 127h12M542 131h12M545 123v13M550 123v13" stroke="#dbd3ba" stroke-width=".7"/>
+<circle cx="548" cy="261" r="13" fill="#393c3b" stroke="#8f8c83" stroke-width="2"/><circle cx="548" cy="261" r="9" fill="#404847"/><circle cx="574" cy="243" r="3" fill="#62645e"/>
+<g transform="translate(534 412) scale(1.3)" fill="#77766f"><path d="M20 10C18 0 26-8 35-10c1 9-6 18-15 20ZM43 43c-3 7-8 15-14 15-5 0-7-3-12-3-6 0-9 3-13 3-9 0-18-17-18-30 0-12 8-20 17-20 6 0 10 4 14 4 5 0 9-5 16-4 5 0 10 3 13 7-13 7-10 22-3 28Z"/></g>
+<path d="M503 755h75" stroke="#4c4a45" stroke-width="4" stroke-linecap="round"/><path d="M511 755h59" stroke="#1e211f" stroke-width="2" stroke-linecap="round"/>
+<g fill="#474640"><circle cx="458" cy="754" r="2"/><circle cx="467" cy="755" r="2"/><circle cx="476" cy="756" r="2"/><circle cx="485" cy="756" r="2"/><circle cx="596" cy="755" r="2"/><circle cx="605" cy="754" r="2"/><circle cx="614" cy="753" r="2"/><circle cx="623" cy="752" r="2"/></g>
+</g>
+<!-- Floating AirPods and the signature cobalt accent. -->
+<g filter="url(#soft)" transform="translate(323 115) rotate(16 50 80) scale(1.2)"><use href="#earbud"/></g>
+<g filter="url(#soft)" transform="translate(187 401) rotate(-18 50 80) scale(1.12)"><use href="#earbud"/></g>
+<circle cx="194" cy="670" r="35" fill="url(#blue)"/><ellipse cx="181" cy="650" rx="11" ry="6" transform="rotate(-35 181 650)" fill="#b9cbff" opacity=".26"/>
+</svg>

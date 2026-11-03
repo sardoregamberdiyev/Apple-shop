@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+<defs>
+<linearGradient id="frame" x1="71" y1="80" x2="330" y2="310" gradientUnits="userSpaceOnUse"><stop stop-color="#777c80"/><stop offset=".48" stop-color="#d5d8dc"/><stop offset="1" stop-color="#7a7d82"/></linearGradient>
+<linearGradient id="base" x1="200" y1="290" x2="200" y2="337" gradientUnits="userSpaceOnUse"><stop stop-color="#c9ccd0"/><stop offset=".45" stop-color="#9b9da2"/><stop offset=".5" stop-color="#f5f5f6"/><stop offset="1" stop-color="#60646a"/></linearGradient>
+<linearGradient id="petal" x1="0" y1="0" x2="80" y2="0"><stop stop-color="#162b52"/><stop offset=".45" stop-color="#accceb"/><stop offset=".68" stop-color="#e4f2ff"/><stop offset="1" stop-color="#3c6997"/></linearGradient>
+<linearGradient id="petal2" x1="0" y1="0" x2="90" y2="0"><stop stop-color="#1d3051"/><stop offset=".5" stop-color="#6ca2cd"/><stop offset=".78" stop-color="#cee4f9"/><stop offset="1" stop-color="#173554"/></linearGradient>
+<filter id="shadow"><feDropShadow dx="0" dy="9" stdDeviation="7" flood-opacity=".19"/></filter>
+<clipPath id="scr"><rect x="62" y="87" width="276" height="197" rx="3"/></clipPath>
+<path id="leaf" d="M0 0C-52-10-94-35-107-54c-10-17 12-23 37-9C-31-41-6-15 0 0Z"/>
+<path id="leaf2" d="M0 0C-51-15-87-38-96-58c-9-20 15-20 36-5C-26-37-9-12 0 0Z"/>
+</defs>
+<ellipse cx="201" cy="341" rx="161" ry="8" fill="#111e35" opacity=".1"/>
+<g filter="url(#shadow)">
+<rect x="52" y="76" width="296" height="221" rx="10" fill="url(#frame)" stroke="#75797e" stroke-width="1.4"/>
+<rect x="57" y="81" width="286" height="210" rx="6" fill="#101214"/>
+<g clip-path="url(#scr)"><path fill="#02060e" d="M62 87h276v197H62z"/>
+<g transform="translate(206 201)">
+<g fill="url(#petal)"><use href="#leaf" transform="rotate(13)"/><use href="#leaf" transform="rotate(39)"/><use href="#leaf" transform="rotate(65)"/><use href="#leaf" transform="rotate(91)"/><use href="#leaf" transform="rotate(117)"/><use href="#leaf" transform="rotate(143)"/><use href="#leaf" transform="rotate(169)"/></g>
+<g fill="url(#petal2)"><use href="#leaf2" transform="rotate(194)"/><use href="#leaf2" transform="rotate(218)"/><use href="#leaf2" transform="rotate(242)"/><use href="#leaf2" transform="rotate(266)"/><use href="#leaf2" transform="rotate(290)"/><use href="#leaf2" transform="rotate(314)"/><use href="#leaf2" transform="rotate(338)"/></g>
+<g fill="url(#petal)" transform="scale(.64)"><use href="#leaf" transform="rotate(28)"/><use href="#leaf" transform="rotate(64)"/><use href="#leaf" transform="rotate(100)"/><use href="#leaf" transform="rotate(136)"/><use href="#leaf" transform="rotate(172)"/><use href="#leaf" transform="rotate(208)"/><use href="#leaf" transform="rotate(244)"/><use href="#leaf" transform="rotate(280)"/><use href="#leaf" transform="rotate(316)"/><use href="#leaf" transform="rotate(352)"/></g>
+<g fill="url(#petal2)" transform="scale(.33)"><use href="#leaf" transform="rotate(20)"/><use href="#leaf" transform="rotate(65)"/><use href="#leaf" transform="rotate(110)"/><use href="#leaf" transform="rotate(155)"/><use href="#leaf" transform="rotate(200)"/><use href="#leaf" transform="rotate(245)"/><use href="#leaf" transform="rotate(290)"/><use href="#leaf" transform="rotate(335)"/></g>
+</g></g>
+<path d="M183 86h34v6c0 3-2 5-5 5h-24c-3 0-5-2-5-5v-6Z" fill="#090b0e"/><circle cx="200" cy="91" r="1.5" fill="#182436"/>
+<path d="m52 296-35 29c-3 3-2 7 4 8h358c6-1 7-5 4-8l-35-29H52Z" fill="url(#base)" stroke="#979a9e"/>
+<path d="M25 326h350" stroke="#f4f4f4" stroke-width="1.6"/><path d="m156 296-4 5c-1 2 0 3 3 3h90c3 0 4-1 3-3l-4-5" fill="#686b70"/>
+<path d="M26 332h348" stroke="#71757b" stroke-width="1.5"/>
+</g></svg>

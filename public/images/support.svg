@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" fill="none">
+<defs><linearGradient id="bg" x1="30" y1="10" x2="120" y2="150" gradientUnits="userSpaceOnUse"><stop stop-color="#eceeea"/><stop offset="1" stop-color="#d8dcd9"/></linearGradient><linearGradient id="hair" x1="34" y1="38" x2="67" y2="117" gradientUnits="userSpaceOnUse"><stop stop-color="#4d3427"/><stop offset=".6" stop-color="#38251e"/><stop offset="1" stop-color="#201d1a"/></linearGradient><linearGradient id="skin" x1="35" y1="48" x2="63" y2="96" gradientUnits="userSpaceOnUse"><stop stop-color="#efd1b5"/><stop offset="1" stop-color="#c89476"/></linearGradient><linearGradient id="man" x1="87" y1="43" x2="115" y2="94" gradientUnits="userSpaceOnUse"><stop stop-color="#e9c4a0"/><stop offset="1" stop-color="#bd8768"/></linearGradient><clipPath id="circle"><circle cx="75" cy="75" r="72"/></clipPath></defs>
+<g clip-path="url(#circle)"><circle cx="75" cy="75" r="72" fill="url(#bg)"/>
+<!-- Consultant in a charcoal overshirt. -->
+<path d="M72 151v-33c1-14 9-20 23-23h17c16 3 25 11 29 26l10 30" fill="#343f46"/>
+<path d="m91 99 13 13 12-14 6 51H87Z" fill="#f5f3ed"/>
+<path d="m95 84-1 18c6 7 14 8 20 0l-3-19" fill="#c79777"/>
+<path d="m91 97 12 15-13 17-6-24Zm24 0-12 15 15 16 6-22Z" fill="#4b565b"/>
+<ellipse cx="88" cy="65" rx="5" ry="8" fill="#c59576"/><ellipse cx="118" cy="65" rx="5" ry="8" fill="#c59576"/>
+<path d="M87 49c1-17 29-20 32 1l-1 25c-1 14-9 21-15 21-8 0-15-10-16-21Z" fill="url(#man)"/>
+<path d="M86 60c-3-5-3-16 1-21 5-7 15-10 23-6 10 1 14 10 10 25l-3 5-2-14c-9 2-16 0-21-4l-4 16-4-1Z" fill="#302821"/>
+<path d="M90 73c3 1 5 8 13 8s12-5 15-9c0 16-7 23-15 23s-13-9-13-22Z" fill="#594234" opacity=".85"/>
+<path d="M98 83c3 2 7 2 11-1" stroke="#fff5e8" stroke-width="2" stroke-linecap="round"/>
+<path d="m102 65-2 8 5 1" stroke="#af7f61" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M91 58c3-2 6-2 9-1M107 57c3-2 6-1 9 1" stroke="#5b4231" stroke-width="1.7" stroke-linecap="round"/>
+<ellipse cx="96" cy="63" rx="1.4" ry="1.7" fill="#39332d"/><ellipse cx="111" cy="63" rx="1.4" ry="1.7" fill="#39332d"/>
+<!-- Consultant in a white shirt and dark blazer. -->
+<path d="M23 90c-1-14 0-38 6-49 6-10 23-13 33-2 8 8 11 30 11 49l-6 28H24Z" fill="url(#hair)"/>
+<path d="M9 151v-29c0-15 11-23 27-27h19c14 4 25 11 28 26l4 30" fill="#42434a"/>
+<path d="m33 99 12 13 13-13 8 52H23Z" fill="#fffaf3"/>
+<path d="m37 82-1 19c5 9 14 11 20 0l-3-19" fill="#c89679"/>
+<path d="m32 99 13 13-17 19-6-23Zm25 0-12 13 17 18 5-22Z" fill="#56565a"/>
+<path d="M30 52c0-15 29-16 31 1l-2 22C57 88 51 94 45 94S32 86 31 74Z" fill="url(#skin)"/>
+<path d="M26 65c-2-21 9-31 20-31 14 0 20 11 20 29l-5-2-4-13c-10 5-18 7-28 6l2 17-5-6Z" fill="url(#hair)"/>
+<path d="M28 55c0 27-4 35 3 51M62 54c-1 23 5 30 3 50" stroke="#6d4933" stroke-width="3" opacity=".65" stroke-linecap="round"/>
+<path d="M34 61c2-2 5-2 8-1M49 60c3-1 6-1 8 1" stroke="#684834" stroke-width="1.5" stroke-linecap="round"/>
+<ellipse cx="38" cy="66" rx="1.4" ry="1.7" fill="#4c3b30"/><ellipse cx="53" cy="66" rx="1.4" ry="1.7" fill="#4c3b30"/>
+<path d="m45 67-2 8 4 1" stroke="#bd8c70" stroke-width="1" stroke-linecap="round"/>
+<path d="M38 80c4 5 10 5 14-1" fill="#a7655d"/><path d="M40 80c3 2 7 2 10 0" stroke="#fff8ee" stroke-width="2" stroke-linecap="round"/>
+<circle cx="30" cy="77" r="2" fill="#e4d7bb"/><circle cx="60" cy="77" r="2" fill="#e4d7bb"/>
+</g></svg>

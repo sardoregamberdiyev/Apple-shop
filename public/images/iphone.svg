@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+<defs>
+ <linearGradient id="back" x1="95" y1="50" x2="260" y2="350" gradientUnits="userSpaceOnUse"><stop stop-color="#b7b5f3"/><stop offset=".48" stop-color="#8585d7"/><stop offset="1" stop-color="#575aaf"/></linearGradient>
+ <linearGradient id="edge" x1="70" y1="180" x2="235" y2="180" gradientUnits="userSpaceOnUse"><stop stop-color="#5356a7"/><stop offset=".03" stop-color="#d0cef8"/><stop offset=".08" stop-color="#7073bf"/><stop offset=".95" stop-color="#aaa8e5"/><stop offset="1" stop-color="#42458d"/></linearGradient>
+ <linearGradient id="lens" x1="120" y1="55" x2="160" y2="98" gradientUnits="userSpaceOnUse"><stop stop-color="#9196d3"/><stop offset=".16" stop-color="#101726"/><stop offset=".5" stop-color="#000"/><stop offset=".76" stop-color="#182445"/><stop offset="1" stop-color="#747cad"/></linearGradient>
+ <linearGradient id="glass" x1="245" y1="35" x2="245" y2="367" gradientUnits="userSpaceOnUse"><stop stop-color="#071438"/><stop offset=".45" stop-color="#121b67"/><stop offset="1" stop-color="#050d2c"/></linearGradient>
+ <radialGradient id="orb"><stop stop-color="#0e1548"/><stop offset=".57" stop-color="#172963"/><stop offset=".8" stop-color="#4d64ce"/><stop offset=".92" stop-color="#8995ef"/><stop offset="1" stop-color="#25397c"/></radialGradient>
+ <filter id="shadow" x="-50%" y="-30%" width="200%" height="170%"><feDropShadow dx="1" dy="12" stdDeviation="9" flood-color="#19204f" flood-opacity=".17"/></filter>
+ <clipPath id="screen"><rect x="189" y="39" width="146" height="318" rx="23"/></clipPath>
+</defs>
+<ellipse cx="204" cy="369" rx="128" ry="10" fill="#182255" opacity=".09"/>
+<g filter="url(#shadow)" transform="rotate(-4 159 203)">
+ <rect x="68" y="34" width="163" height="324" rx="29" fill="url(#edge)" stroke="#7676b5" stroke-width="1"/>
+ <rect x="75" y="37" width="152" height="317" rx="25" fill="url(#back)" stroke="#c5c1f1" stroke-width="1.3"/>
+ <path d="M70 112v36M70 163v48" stroke="#bdbbea" stroke-width="3" stroke-linecap="round"/>
+ <rect x="86" y="48" width="50" height="106" rx="25" fill="#aaa8e6" stroke="#c8c5f3"/>
+ <circle cx="111" cy="75" r="20" fill="#6063a5" stroke="#d3cff6" stroke-width="2"/>
+ <circle cx="111" cy="75" r="16.5" fill="url(#lens)"/>
+ <circle cx="111" cy="75" r="10" fill="#091227"/>
+ <circle cx="111" cy="75" r="6" fill="#162c55"/><ellipse cx="107" cy="70" rx="3" ry="4" fill="#5b71b1" opacity=".7"/>
+ <circle cx="111" cy="126" r="20" fill="#6063a5" stroke="#d3cff6" stroke-width="2"/>
+ <circle cx="111" cy="126" r="16.5" fill="url(#lens)"/><circle cx="111" cy="126" r="10" fill="#091227"/><circle cx="111" cy="126" r="6" fill="#162c55"/><ellipse cx="107" cy="121" rx="3" ry="4" fill="#5b71b1" opacity=".7"/>
+ <circle cx="149" cy="96" r="7" fill="#e4e0dc" stroke="#c2bee2"/><circle cx="149" cy="96" r="4.5" fill="#efede5"/><circle cx="149" cy="115" r="2" fill="#5c5c91"/>
+ <g transform="translate(140 191) scale(.78)" fill="#6668ab"><path d="M22 13c-1-8 5-15 12-17 1 7-4 15-12 17ZM41 43c-2 5-6 12-11 12-4 0-6-3-11-3s-7 3-11 3C1 55-7 41-7 30c0-11 6-17 14-17 5 0 9 3 12 3 4 0 8-4 14-3 4 0 8 2 11 6-11 6-9 19-3 24Z"/></g>
+</g>
+<g filter="url(#shadow)">
+ <rect x="182" y="29" width="160" height="338" rx="30" fill="#6b6ba9" stroke="#b9b7e8" stroke-width="2"/>
+ <rect x="186" y="33" width="152" height="330" rx="27" fill="#090c1a"/>
+ <g clip-path="url(#screen)"><rect x="189" y="39" width="146" height="318" fill="url(#glass)"/><circle cx="262" cy="121" r="72" fill="url(#orb)"/><circle cx="262" cy="279" r="81" fill="url(#orb)"/><path d="M190 197h145" stroke="#a8b1ff" opacity=".7"/><path d="M192 202c45 8 92 8 141 0" stroke="#5a67c9" opacity=".8"/></g>
+ <rect x="235" y="48" width="55" height="16" rx="8" fill="#02040b"/>
+ <circle cx="280" cy="56" r="3" fill="#11172c"/>
+ <rect x="242" y="347" width="43" height="3" rx="1.5" fill="#d9def6" opacity=".7"/>
+</g>
+</svg>
